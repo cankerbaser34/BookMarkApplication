@@ -1,0 +1,61 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<link rel="stylesheet" href="./main.css">
+        
+		<title>Site Bookmarker</title>
+	</head>
+	<body onload="fetchBookmarks()">
+	
+
+		<div class="container">
+			<div class="header clearfix">
+			  <nav>
+				
+			  </nav>
+			  <h3 class=" baslik">Bookmarker</h3>
+			</div>
+	  
+			<div class="jumbotron">
+			  <h2 >Bookmark your fovarite sites</h2>
+			 <form id="myform">
+				 <div class="form-group">
+					 <label>Site Name</label>	
+					 <input type="text" class="form-control" id="siteName" placeholder="Website Name">
+				 </div>
+				 <div class="form-group">
+					<label>Site URL</label>	
+					<input type="text" class="form-control" id="siteUrl" placeholder="Website URL">
+				</div>
+
+				<button type="submit" class="btn btn-primary">Submit</button>
+			 </form>
+			</div> 
+	  
+			<div class="row marketing">
+			  <div class="col-lg-12">
+				<div id="bookMarksResults"></div>
+			  </div>
+	  
+			
+			</div>
+	  
+			<footer class="footer">
+			  <p> Canker&copy; Bookmarker 2019</p>
+			</footer>
+	  
+		  </div> <!-- /container -->
+	  
+		  <!-- Bootstrap core JavaScript
+		  ================================================== -->
+		  <!-- Placed at the end of the document so the pages load faster -->
+		  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		  <script src="./main.js"></script>
+	</body>
+</html>
